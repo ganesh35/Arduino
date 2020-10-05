@@ -1,3 +1,17 @@
+/*
+  Testing Photoresistor
+  Read the light value of the room, if the value is less than 350 turn on  RED LED or else turn on GREEN LED.
+
+   The circuit:
+  - Left pin of Photoresistor connected to 5v of Microcontroller.
+  - Right pin of Photoresistor connected to Reistor 5kΩ and to Ground.
+  - Middle pin of Potentiometer connected to A1 Pin of Microcontroller.
+  - RED LED attached from digital pin 4 to ground.
+  - GREEN LED attached from digital pin 2 to ground.
+
+  by Ganesh Butcha
+*/
+
 int lightPin=A0;
 int lightVal;
 int delayT=250;
