@@ -1,9 +1,10 @@
 # Project #2: Blinking LEDs
 
-Running a sequence of Blinking LEDs.
+Running a sequence of Blinking LEDs. Turns each LED of 3 for one second, then off for one second, repeatedly.
 
 - [Parts](#parts)
 - [Schema](#schema)
+- [The circuit](#the-circuit)
 - [Code](#code)
 
 ## Parts
@@ -15,6 +16,11 @@ Required parts for this project are:
 - LED Blue x1
 - Resistor 330Ω x3
 - Wires x7
+
+## The circuit:
+  - RED LED attached from digital pin 5 to ground.
+  - GREEN LED attached from digital pin 6 to ground.
+  - BLUE LED attached from digital pin 7 to ground.
 
 ## Schema
 ![The Breadboard](./assets/schemaBreadboard.PNG?raw=true)
